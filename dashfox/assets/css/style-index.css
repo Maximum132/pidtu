@@ -1,0 +1,241 @@
+
+    *{
+        font-family: 'Kanit-Regular';
+        font-weight: normal;
+    }
+    svg.hor__icon {
+        margin-top: -5px;
+    }
+    .pdf-icon{
+        max-height: 25px;
+        max-width: 25px;
+    }
+    select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(../../assets/img/Icon/arrow-down.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: right 10px center !important;
+        cursor: pointer;
+    }		
+    input[type=radio]{
+            border: 1px solid #e5e6f3;
+            padding: 0.5em;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+           }
+           input[type=radio]:checked {
+            background: #8191E9;
+           }
+           input[type=radio]:focus {
+            outline-color: transparent;
+      }
+
+    .btn-custom-green {
+        color: #fff;
+        background-color: #00ce8a;
+        border-color: #00ce8a;
+    }
+    .text-custom-st-1 {
+        font-size: 45px;
+        color: #5066e0;
+        font-family: 'Kanit-Medium';
+    }
+    .text-custom-st-2 {
+        color: #ff0000;
+        font-size: 45px;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+    .text-custom.nav{
+        font-size: 17px !important;
+    }
+    .card-blue {
+        background: #8191e9 !important;
+        color: #fff;
+    }
+    .table thead th, .table thead td{
+        padding: 5px;
+    }
+    .table thead th {
+        vertical-align: top;
+        line-height: 1;
+        color: #999999;
+        font-family: 'Kanit-Light';
+    }
+    .country-table .table th, .table td{
+        padding: 5px;
+    }
+    tr {
+        height: 43px;
+    }
+    .table th, .table td{
+        vertical-align: middle;
+    }
+    table.my-table {
+        border-collapse: collapse;
+    }
+    .font-bold{
+        font-family: 'Kanit-Bold';
+    }
+    .font-medium{
+        font-family: 'Kanit-Medium';
+    }
+    .text-custom-danger{
+        color: #ff0000;
+    }
+    .user-name{
+        color: #5066e0;
+    }
+    .head-green{
+        color: #00cf8b;
+        font-size: 24px;
+        font-family: 'Kanit-Bold';
+    }
+    .tab-custom-st.active {
+        background: #edeffc!important;
+        color: #000!important;
+        
+    }
+    .tab-custom-st {
+        background: #fff!important;
+        color: #000!important;
+        border-radius: 0!important;
+        padding: 8px!Important;
+    }
+    .tab-custom-st:hover{
+        background: #edeffc!important;
+        color: #000!important;
+        transition: .2s;
+    }
+    
+    .text-custom-d-blue{
+        color:#293ca2 ;
+    }
+    .text-custom-purple{
+        color:#b67aff ;
+    }
+    .text-custom-grey{
+        color : grey;
+    }
+    
+    .main-nav-line .nav-link {
+        margin: 0!Important;
+    }
+    .bd-0{
+        border-width: 0!important;
+    }
+    .btn-custom-grey{
+          color: #fff;
+          background-color: #e5e5e5;
+          border-color: #e5e5e5b7;
+    }
+    div#modalcreate .modal-dialog,#modalcreatecontainer .modal-dialog,#modalcreate-bill .modal-dialog, #modalcreate-list .modal-dialog,#modalcreate-edit .modal-dialog{
+        max-width: 690px;
+        max-height: 575px;
+    }   
+    div#modalcreate .modal-footer,#modalcreatecontainer .modal-footer,#modalcreate-bill .modal-footer, #modalcreate-list .modal-footer,#modalcreate-edit .modal-footer{
+        justify-content: flex-start;
+    }
+    div#modalcreatecontainer .modal-dialog, div#modalcreate .modal-dialog, div#modalcreate-bill .modal-dialog, div#modalcreate-bill .modal-dialog , div#modalcreate-edit .modal-dialog
+    div#modalcreate-list .modal-dialog{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    button#but-addrow {
+        margin: 1rem;
+        width: 30px;
+        background: none;
+        border: none;
+    }
+    button#but-removerow{
+        margin: 1rem;
+        width: 30px;
+        background: none;
+        border: none;
+        
+    }
+    select#PaymentSelection::after{
+        width: 360;
+        
+    }
+    
+    .sweet-alert {
+        display: block;
+        margin-top: -120px !important;
+    }
+    .tooltip-custom {
+        position: relative;
+        display: inline-block;
+        }
+
+        .tooltip-custom .tooltipcontent {
+            visibility: hidden;
+            width: 250px;
+            background-color: #fff;
+            color: #fff;
+            text-align: center;
+            border-radius: 0px;
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            margin-left: -124px;
+            padding: 0;
+            top: 35px;
+        }
+
+        .tooltip-custom .tooltipcontent::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #b67aff transparent transparent transparent;
+            transform: rotate(180deg);
+        }
+
+        .tooltip-custom:hover .tooltipcontent {
+        visibility: visible;
+        }
+        .tooltipcontent > .t-header {
+            background: #b67aff;
+            height: 30px;
+        }
+        .tooltipcontent > .t-body{
+            color: #000;
+            text-align: left;
+            padding: 10px;
+        }
+    @media only screen and (min-width:1200px){
+    .horizontalMenu>.horizontalMenu-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+    @media only screen and (max-width:767px){
+    .del-px-mb{
+        padding-right: 0!Important;
+        padding-left: 0!important;
+    }
+    
+    .px-mb-2{
+        padding-left: .5rem!Important;
+        padding-right: .5rem!Important;
+    }
+    .table-striped tbody tr:nth-of-type(odd) td:first-child{
+        border-top-left-radius: 10px!important;
+        border-bottom-left-radius: 10px!important;
+    }
+    .table-striped tbody tr:nth-of-type(odd) td:last-child{
+    
+        border-top-right-radius: 10px!important;
+        border-bottom-right-radius: 10px!important;
+    }
+    }
+
